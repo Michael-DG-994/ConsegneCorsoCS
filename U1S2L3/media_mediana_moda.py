@@ -30,10 +30,11 @@ for num in num_list:
   repet[num] = num_list.count(num) #assegno a ogni numero inserito da utente il valore .count di quante volte è stato ripetuto in num_list
 
 freq=max(repet.values()) #con max(repet.values) prendo il valore NON LA CHIAVE del numero ripetuto più volte nel dizionario repet ES: {1:1 , 2:5, 3:1} freq=5 
+if freq <= 1:  #aggiunto questo dopo, mi ero dimenticato di fare un controllo con if else nel caso numeri non si ripetano
+   print("Moda: Errore, Nessun numero si ripete... Non posso calcolare moda")
+else:
 moda=repet[freq] #la moda sarà quindi il numero chiave del dizionario con il valore associato frequenza
 print(f"La moda è: {moda}")
-
-
 
 #calcolo mediana
 def mediana_fnc():
