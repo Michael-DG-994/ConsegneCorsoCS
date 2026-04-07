@@ -1,0 +1,1 @@
+oggi sfortunatamente non ero a casa fino a tardi quindi ho fatto molto velocemente tentativo su medium, su burpsuite ho monitorato vari scambi ma ho dimenticato di includere screenshot. aggiornerò appena possibile quando riproverò su "high" security, sono riuscito su high security a fare upload della png con script php il problema è che da inclusion mi blocca il cmd comunque. 
