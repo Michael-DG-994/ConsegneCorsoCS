@@ -1,9 +1,0 @@
-Come chiesto da esercizio ho impostato dei diritti che conferiscono solo a 
-User/Owner di avere permesso di scrittura su un file di testo e su una dir.
-Assegnando a "Groups" e "Others" di Linux solo permessi di read, o nel caso
-della directory di "execute" che gli concede di muoversi sulla cartella per
-controllarne i contenuti (per la quale hanno i permessi read).
-Ma in quanto un file creato nella directory non avrebbe un inherit dei perms
-Ho decisso di utilizzare setfacl (set file access control list) per stabilire
-che il default per i permessi su file creati nella cartella rispetti la scelta
-precendente in modo esplicito.
